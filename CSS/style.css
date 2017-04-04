@@ -1,6 +1,7 @@
+
 body{
   font-size: 15px;
-  font-family: Bradley Hand ITC;
+  font-family: Macondo;
   padding: 0px;
   margin:0px;
   background-color: #4C2501;
@@ -26,18 +27,18 @@ header{
   padding-top: 1%;
 
 }
-header .start{
+.start{
   width: 100%;
 
   text-align: center;
   font-size: 20px;
   font-weight: 400;
 }
-header .start h1{
+ .start h1{
 
   text-align: center;
   font-size: 32px;
-  font-family: Kristen ITC;
+  font-family: Indie Flower;
 }
 /*the information section*/
 #information{
@@ -97,7 +98,7 @@ header .start h1{
 #information .start nav ul a:hover{
   background-color: #843f16;
   color: #f5f5f5;
-  
+
 }
 #information .start a:active{
   box-shadow: #000000 0px 0px 5px 3px;
