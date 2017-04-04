@@ -1,0 +1,178 @@
+body{
+  font-size: 15px;
+  font-family: Bradley Hand ITC;
+  padding: 0px;
+  margin:0px;
+  background-color: #4C2501;
+  color: #843f16;
+}
+
+/*default condition*/
+.start{
+ width: 100%;
+  margin: auto;
+  overflow: hidden;
+}
+
+
+/*Header Section*/
+header{
+
+  background: #ab5608;
+  width: 100%;
+
+
+}
+header .start{
+  text-align: center;
+ display: flex;
+  font-size: 20px;
+  font-weight: 400;
+
+
+}
+
+header .start h1{
+
+  font-size: 20px;
+}
+header .start h1 a{
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #f5f5f5;
+  font-weight: 800;
+}
+header .start .home{
+  flex: 1;
+
+  background: #381e06;
+  border: 1px solid #381e06;
+
+}
+header .start .home:hover{
+  background-color: #271504;
+  color: #f5f5f5;
+
+}
+header .start .home:active{
+  box-shadow: #000000 4px 0px 4px 0px;
+}
+header .start .bio{
+flex: 1;
+background: #381e06;
+border: 1px solid #381e06;
+}
+header .start .bio:hover{
+  background-color: #271504;
+  color: #f5f5f5;
+
+}
+header .start .bio:active{
+  box-shadow: #000000 4px 0px 4px 0px;
+}
+header .start .contact{
+flex: 1;
+background: #381e06;
+border: 1px solid #381e06;
+}
+header .start .contact:hover{
+  background-color: #271504;
+  color: #f5f5f5;
+
+}
+header .start .contact:active{
+  box-shadow: #000000 4px 0px 4px 0px;
+}
+header .start .cv{
+flex: 1;
+background: #4C2501;
+border: 1px solid #4C2501;
+
+}
+
+/*The information section*/
+#information{
+  font-size: 27px;
+ align-items: center;
+  margin-left: 10%;
+  margin-bottom: 2%;
+  width: 80%;
+  margin-top: 5%;
+  display: flex;
+  background-color: #52b2bf;
+  color: #f5f5f5;
+
+
+  border-radius: 18%;
+}
+#information .start{
+
+ width: 100%;
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+#information .start h1{
+ text-transform: uppercase;
+ font-size: 25px;
+ margin-left: 3%;
+}
+#information .start nav ul li{
+  flex-direction: row;
+ margin-left: 7%;
+  margin-top: 2%;
+  font-size: 17px;
+
+}
+/*footer section*/
+footer{
+  font-size: 15px;
+    font-weight: 600;
+    width: 100%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    color: #f5f5f5;
+    background-color: #000000;
+    text-align: center;
+
+}
+/*media queries*/
+@media (max-width: 760px){
+  .start{
+    text-align: center;
+    align-items: center;
+
+
+
+  }
+  .start .home h1{
+    font-size: 14px;
+  }
+  .start .bio h1{
+    font-size: 14px;
+  }
+  .start .contact h1{
+    font-size: 14px;
+  }
+  .start .cv h1{
+    font-size: 14px;
+  }
+  #information .start nav ul{
+    flex-direction: column;
+    padding-right: 19%;
+    margin: 25% 0;
+  }
+  #information .start nav ul li{
+    text-align: center;
+    margin: 12% 0;
+
+    font-size: 12px;
+  }
+footer{
+
+    width: 100%;
+    align-items: center;
+    text-align: center;
+
+  }
+
+}
