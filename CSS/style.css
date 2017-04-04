@@ -57,7 +57,7 @@ header .start h1{
   transition: transform 1s;
 }
 #information .box:hover{
-  transform: rotate(360deg); translate(200px,0);
+  transform: rotate(360deg);
 }
 
 #information .start h1{
@@ -97,7 +97,7 @@ header .start h1{
 #information .start nav ul a:hover{
   background-color: #843f16;
   color: #f5f5f5;
-  box-shadow: #ffffff;
+  
 }
 #information .start a:active{
   box-shadow: #000000 0px 0px 5px 3px;
