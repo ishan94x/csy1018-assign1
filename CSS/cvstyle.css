@@ -3,7 +3,7 @@ body{
   font-family: Macondo;
   padding: 0px;
   margin:0px;
-  background-color: #4C2501;
+  background: linear-gradient(#192231,#494e68,#6c648b,#b6a19e);
   color: #843f16;
 }
 
@@ -13,12 +13,17 @@ body{
   margin: auto;
   overflow: hidden;
 }
-
+ul{
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+  text-transform: uppercase;
+}
 
 /*Header Section*/
 header{
-
-  background: #ab5608;
+  font-family: Oregano;
+  background: #192231;
   width: 100%;
 
 
@@ -44,7 +49,7 @@ header .start h1 a{
 }
 header .start .home{
   flex: 1;
-
+  padding: 1%;
   background: #381e06;
   border: 1px solid #381e06;
 
@@ -59,6 +64,7 @@ header .start .home:active{
 }
 header .start .bio{
 flex: 1;
+padding: 1%;
 background: #381e06;
 border: 1px solid #381e06;
 }
@@ -72,6 +78,7 @@ header .start .bio:active{
 }
 header .start .contact{
 flex: 1;
+padding: 1%;
 background: #381e06;
 border: 1px solid #381e06;
 }
@@ -85,6 +92,7 @@ header .start .contact:active{
 }
 header .start .cv{
 flex: 1;
+padding: 1%;
 background: #4C2501;
 border: 1px solid #4C2501;
 
@@ -93,9 +101,9 @@ border: 1px solid #4C2501;
 /*The information section*/
 #information{
   font-size: 27px;
- align-items: center;
+
   margin-left: 10%;
-  margin-bottom: 2%;
+  margin-bottom: 5%;
   width: 80%;
   margin-top: 5%;
   display: flex;
@@ -135,16 +143,52 @@ footer{
     text-align: center;
 
 }
+footer nav ul{
+  list-style: none;
+  text-align: center;
+  align-items: center;
+}
+footer nav ul li{
+  text-align: center;
+  align-items: center;
+}
 /*media queries*/
-@media (max-width: 760px){
-  .start{
-    text-align: center;
+@media (max-width: 1000px){
+    .start .home h1{
+    font-size: 18px;
+  }
+  .start .bio h1{
+    font-size: 18px;
+  }
+  .start .contact h1{
+    font-size: 18px;
+  }
+  .start .cv h1{
+    font-size: 18px;
+  }
+  #information{
+    margin-top: 7%;
+    margin-bottom: 7%;
+  }
+  #information .start .h1{
+    text-align: left;
+  }
+  #information .start nav ul li{
+    text-align: left;
+    margin-top: 4%;
+    font-size: 20px;
+  }
+footer{
+
+    width: 100%;
     align-items: center;
-
-
+    text-align: center;
 
   }
-  .start .home h1{
+
+}
+@media (max-width: 760px){
+    .start .home h1{
     font-size: 14px;
   }
   .start .bio h1{
@@ -156,16 +200,51 @@ footer{
   .start .cv h1{
     font-size: 14px;
   }
-  #information .start nav ul{
-    flex-direction: column;
-    padding-right: 19%;
-    margin: 25% 0;
+  #information{
+    margin-top: 7%;
+    margin-bottom: 7%;
+  }
+  #information .start .h1{
+    text-align: left;
   }
   #information .start nav ul li{
-    text-align: center;
-    margin: 12% 0;
+    text-align: left;
+    margin-top: 4%;
+    font-size: 18px;
+  }
+footer{
 
-    font-size: 12px;
+    width: 100%;
+    align-items: center;
+    text-align: center;
+
+  }
+
+}
+@media (max-width: 580px){
+    .start .home h1{
+    font-size: 14px;
+  }
+  .start .bio h1{
+    font-size: 14px;
+  }
+  .start .contact h1{
+    font-size: 14px;
+  }
+  .start .cv h1{
+    font-size: 14px;
+  }
+  #information{
+    margin-top: 9%;
+    margin-bottom: 9%;
+  }
+  #information .start .h1{
+    text-align: left;
+  }
+  #information .start nav ul li{
+    text-align: left;
+    margin-top: 8%;
+    font-size: 13px;
   }
 footer{
 

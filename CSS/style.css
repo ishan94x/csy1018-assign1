@@ -4,7 +4,7 @@ body{
   font-family: Macondo;
   padding: 0px;
   margin:0px;
-  background-color: #4C2501;
+  background: linear-gradient(#192231,#494e68,#6c648b,#b6a19e);
   color: #f5f5f5;
 }
 /*default condition*/
@@ -22,7 +22,7 @@ ul{
 /*Header Section*/
 header{
 
-  background: #381e06;
+  background: #74AFAD;
   width: 100%;
   padding-top: 1%;
 
@@ -44,7 +44,7 @@ header{
 #information{
   align-items: center;
   margin-left: 10%;
-  margin-bottom: 2%;
+  margin-bottom: 5%;
   width: 80%;
   margin-top: 5%;
   display: flex;
@@ -52,16 +52,20 @@ header{
   color: #f5f5f5;
   text-align: center;
   border-radius: 18%;
+
+
 }
 #information .box{
 
   transition: transform 1s;
 }
 #information .box:hover{
-  transform: rotate(360deg);
-}
 
+  -webkit-transform: scale(1.1,1.1);
+
+}
 #information .start h1{
+  font-weight: bold;
   color: #f5f5f5;
   margin-top: 5%;
   margin-bottom: 10%;
@@ -94,6 +98,8 @@ header{
   border-radius: 20px;
   font-weight: 800;
   color: #843f16;
+
+
 }
 #information .start nav ul a:hover{
   background-color: #843f16;
