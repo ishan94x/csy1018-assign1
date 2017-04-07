@@ -3,7 +3,10 @@ body{
   font-family: Macondo;
   padding: 0px;
   margin:0px;
-  background: linear-gradient(#192231,#494e68,#6c648b,#b6a19e);
+  background: linear-gradient(rgba(26, 26, 26, 0.7), rgba(26, 26, 26, 0.7)), url(../images/background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
   color: #843f16;
 }
 
@@ -13,13 +16,18 @@ body{
   margin: auto;
   overflow: hidden;
 }
-
+ul{
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+  text-transform: uppercase;
+}
 
 /*Header Section*/
 header{
   font-family: Oregano;
   width: 100%;
-  background: #192231;
+  background: #000000;
 
 
 }
@@ -45,7 +53,7 @@ header .start h1 a{
 header .start .home{
   flex: 1;
   padding: 1%;
-  background: #381e06;
+  background: rgb(56, 30, 6);
   border: 1px solid #381e06;
 
 }
@@ -60,14 +68,14 @@ header .start .home:active{
 header .start .bio{
 flex: 1;
 padding: 1%;
-background: #4C2501;
+background:  #4C2501;
 border: 1px solid #4C2501;
 }
 
 header .start .contact{
 flex: 1;
 padding: 1%;
-background: #381e06;
+background: rgb(56, 30, 6);
 border: 1px solid #381e06;
 }
 header .start .contact:hover{
@@ -81,7 +89,7 @@ header .start .contact:active{
 header .start .cv{
 flex: 1;
 padding: 1%;
-background: #381e06;
+background: rgb(56, 30, 6);
 border: 1px solid #381e06;
 
 }
@@ -102,11 +110,11 @@ header .start .cv:active{
   width: 80%;
   margin-top: 5%;
   display: flex;
-  background-color: #52b2bf;
+  background: rgba(85, 172, 238, 0.2);
   color: #f5f5f5;
 
 
-  border-radius: 18%;
+  border-radius: 3%;
 }
 #information .start{
 
@@ -115,9 +123,10 @@ header .start .cv:active{
   margin-bottom: 10%;
 }
 #information .start nav ul li{
+  font-size: 25px;
   flex-direction: row;
  margin-left: 10%;
-  margin-top: 4%;
+  margin-top: 1%;
 
 }
 /*footer section*/
@@ -132,9 +141,36 @@ footer{
     text-align: center;
 
 }
-footer nav ul {
-      list-style: none;
+footer nav ul{
+  display: flex;
 }
+footer nav ul li{
+  flex-direction: row;
+  width: 15%;
+}
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
 /*media queries*/
 @media (max-width: 1000px){
 

@@ -1,10 +1,12 @@
-
 body{
   font-size: 15px;
   font-family: Macondo;
   padding: 0px;
   margin:0px;
-  background: linear-gradient(#192231,#494e68,#6c648b,#b6a19e);
+  background: linear-gradient(rgba(26, 26, 26, 0.7), rgba(26, 26, 26, 0.7)), url(../images/background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
   color: #f5f5f5;
 }
 /*default condition*/
@@ -22,7 +24,7 @@ ul{
 /*Header Section*/
 header{
 
-  background: #74AFAD;
+  background: #46a8c3;
   width: 100%;
   padding-top: 1%;
 
@@ -48,18 +50,18 @@ header{
   width: 80%;
   margin-top: 5%;
   display: flex;
-  background-color: #52b2bf;
+  background: rgba(85, 172, 238, 0.2);
   color: #f5f5f5;
   text-align: center;
-  border-radius: 18%;
+  border-radius: 3%;
 
 
 }
-#information .box{
+#information .box img{
 
   transition: transform 1s;
 }
-#information .box:hover{
+#information .box img:hover{
 
   -webkit-transform: scale(1.1,1.1);
 
@@ -67,13 +69,13 @@ header{
 #information .start h1{
   font-weight: bold;
   color: #f5f5f5;
-  margin-top: 5%;
-  margin-bottom: 10%;
+  margin-top: 7%;
+  margin-bottom: 14%;
   font-size: 30px;
 }
 #information .start .box img{
   margin-top: 10px;
-  width: 222px;
+  width: 30%;
   border-radius: 90px;
 }
 #information .start nav ul{
@@ -119,7 +121,36 @@ footer{
   color: #f5f5f5;
   background-color: #000000;
   text-align: center;
+}
+footer nav ul{
+  display: flex;
 
+}
+footer nav ul li{
+  flex-direction: row;
+  width: 15%;
+}
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+.fa-facebook {
+  background: #3B5998;
+  color: white;
 }
 /*media queries*/
 @media (max-width: 760px){
