@@ -137,6 +137,7 @@ footer nav ul li{
 }
 .fa {
   padding: 20px;
+  text-rendering: auto;
   font-size: 1.9em;
   width: 30px;
   text-align: center;
