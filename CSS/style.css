@@ -1,12 +1,13 @@
 body{
-  font-size: 15px;
-  font-family: Macondo;
+  font-size: 1em;
+  font-family: Didact Gothic;
   padding: 0px;
   margin:0px;
   background: linear-gradient(rgba(26, 26, 26, 0.7), rgba(26, 26, 26, 0.7)), url(../images/background.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+  background-attachment: fixed;
   color: #f5f5f5;
 }
 /*default condition*/
@@ -33,14 +34,14 @@ header{
   width: 100%;
 
   text-align: center;
-  font-size: 20px;
+  font-size: 1em;
   font-weight: 400;
 }
  .start h1{
 
   text-align: center;
-  font-size: 32px;
-  font-family: Oregano;
+  font-size: 2em;
+  font-family: Poiret One;
 }
 /*the information section*/
 #information{
@@ -70,17 +71,17 @@ header{
   font-weight: bold;
   color: #f5f5f5;
   margin-top: 7%;
-  margin-bottom: 14%;
-  font-size: 30px;
+  margin-bottom: 12%;
+  font-size: 1.9em;
 }
 #information .start .box img{
-  margin-top: 10px;
+  margin-top: 2%;
   width: 35%;
   border-radius: 90px;
 }
 #information .start nav ul{
   display: flex;
-  margin-top: 3%;
+  margin-top: 2%;
   margin-bottom: 5%;
   padding: 0px;
 }
@@ -93,10 +94,10 @@ header{
 #information .start nav ul li a{
   text-transform: uppercase;
   background-color: #ffffff;
-  font-size: 15px;
+  font-size: 1em;
   padding: 15px 30px;
   text-decoration: none;
-  border: solid 4px #843f16;
+  border: solid 3px #843f16;
   border-radius: 20px;
   font-weight: 800;
   color: #843f16;
@@ -122,7 +123,7 @@ footer{
   background-color: #000000;
 }
 footer h1{
-  margin-left: 5%;
+  margin-left: 6%;
 }
 footer nav ul{
   margin-left: 5%;
@@ -135,7 +136,7 @@ footer nav ul li{
 }
 .fa {
   padding: 20px;
-  font-size: 30px;
+  font-size: 1.9em;
   width: 30px;
   text-align: center;
   text-decoration: none;
@@ -144,7 +145,8 @@ footer nav ul li{
 }
 
 .fa:hover {
-    opacity: 0.7;
+    opacity: 0.2;
+  
 }
 
 .fa-twitter {
@@ -168,7 +170,7 @@ footer nav ul li{
     color: #f5f5f5;
     margin-top: 7%;
     margin-bottom: 3%;
-    font-size: 30px;
+    font-size: 1.9em;
   }
   #information .start nav ul{
     padding-right: 19%;
@@ -183,17 +185,18 @@ footer nav ul li{
   }
   #information .start nav ul li a{
     border-radius: 20px;
-    font-size: 11px;
+    font-size: 0.8em;
   }
   #information .start .box img{
     width: 50%;
     border-radius: 90px;
   }
   footer h1{
-    font-size: 29px;
+    font-size: 1.5em;
   }
   footer nav ul li{
     width: 15%;
+}
 }
 @media (max-width: 760px){
 
@@ -207,7 +210,7 @@ footer nav ul li{
     color: #f5f5f5;
     margin-top: 7%;
     margin-bottom: 3%;
-    font-size: 30px;
+    font-size: 1.5em;
   }
   #information .start nav ul{
     padding-right: 19%;
@@ -222,19 +225,21 @@ footer nav ul li{
   }
   #information .start nav ul li a{
     border-radius: 20px;
-    font-size: 11px;
+    font-size: 0.8em;
   }
   #information .start .box img{
     width: 50%;
     border-radius: 90px;
   }
 
-footer h1{
-  font-size: 25px;
-}
-footer nav ul li{
-  width: 15%
-}
+  footer h1{
+    margin-right: 7%;
+    font-size: 1.3em;
+  }
+  footer nav ul li{
+    width: 25%;
+    margin-right: 5%;
+  }
 }
 @media (max-width: 580px){
 
@@ -243,37 +248,60 @@ footer nav ul li{
     align-items: center;
 
   }
+  #information {
+    margin-top: 19%;
+    margin-bottom: 19%;
+  }
   #information .start h1{
     font-weight: bold;
     color: #f5f5f5;
-    margin-top: 7%;
-    margin-bottom: 3%;
-    font-size: 30px;
+    margin-top: 8%;
+    margin-bottom: 5%;
+    font-size: 1.3em;
   }
   #information .start nav ul{
     padding-right: 19%;
     margin-top: 2%;
-    margin-left: 5%;
+    margin-left: 4%;
     flex-direction: column;
   }
   #information .start nav ul li{
     text-align: center;
-    margin: 8% 0;
+    margin: 10% 0;
     width: 100%;
   }
   #information .start nav ul li a{
+    ;
     border-radius: 20px;
-    font-size: 11px;
+    font-size: 0.8em;
   }
   #information .start .box img{
     width: 50%;
     border-radius: 90px;
   }
   footer h1{
-    font-size: 20px;
+    margin-right: 7%;
+    font-size: 1.3em;
   }
   footer nav ul li{
     width: 25%;
+    margin-right: 5%;
   }
+  .fa-twitter {
 
+    background: #55ACEE;
+    color: white;
+    padding-bottom: 25px;
+    padding-right: 25px;
+    height: 20px;
+    width: 20px;
+  }
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+    height: 20px;
+    width: 20px;
+    padding-bottom: 25px;
+    padding-right: 25px;
+  }
 }
