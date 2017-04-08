@@ -301,16 +301,16 @@ footer nav ul li{
 }
 @media (max-width: 580px){
     .start .home h1{
-    font-size: 0.9em;
+    font-size: 0.7em;
   }
   .start .bio h1{
-    font-size: 0.9em;
+    font-size: 0.7em;
   }
   .start .contact h1{
-    font-size: 0.9em;
+    font-size: 0.7em;
   }
   .start .cv h1{
-    font-size: 0.9em;
+    font-size: 0.7em;
   }
   #information{
     margin-top: 34%;
