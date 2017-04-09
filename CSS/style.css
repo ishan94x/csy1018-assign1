@@ -76,6 +76,7 @@ header{
   font-size: 1.9em;
 }
 #information .start .box img{
+
   margin-top: 2%;
   width: 35%;
   border-radius: 90px;
@@ -141,7 +142,7 @@ footer nav ul li{
   width: 30px;
   -webkit-font-smoothing: antialiased;
   text-align: center;
-  text-rendering: auto;
+  
   text-decoration: none;
   margin: 5px 2px;
   border-radius: 50%;
