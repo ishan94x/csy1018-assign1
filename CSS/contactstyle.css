@@ -59,6 +59,7 @@ header .start h1 a{
   font-weight: 800;
   padding: 25%;
 }
+/*link to homepage*/
 header .start .home{
   flex: 1;
   padding: 1%;
@@ -71,7 +72,7 @@ header .start .home h1 a:hover{
   color: #f5f5f5;
 
 }
-
+/*link to bio page*/
 header .start .bio{
 flex: 1;
 padding: 1%;
@@ -85,13 +86,14 @@ header .start .bio h1 a{
   color:  #f5f5f5;
 
 }
-
+/*link to contact page*/
 header .start .contact{
 flex: 1;
 padding: 1%;
 background: rgba(76, 76, 76, 0);
 border: 1px solid #ffffff;
 }
+/*link to cv page*/
 header .start .cv{
 flex: 1;
 padding: 1%;
@@ -127,6 +129,7 @@ header .start .cv h1 a:hover{
   align-items: center;
   text-align: center;
 }
+/*form to insert information*/
 #information .start .message input{
   padding: 2%;
   height: 20px;
@@ -166,7 +169,7 @@ footer nav ul li{
   width: 30px;
   -webkit-font-smoothing: antialiased;
   text-align: center;
-  
+
   text-decoration: none;
   margin: 5px 2px;
   border-radius: 50%;
